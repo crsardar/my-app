@@ -1,0 +1,11 @@
+{
+    "name": "com.crsardar.webtech.nodejs.myapp",
+    "version": "1.0.0",
+    "description": "Playing with Node.JS",
+    "main": "App.js",
+    "author": "Chittaranjan Sardar",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
