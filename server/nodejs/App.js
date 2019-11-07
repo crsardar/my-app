@@ -23,7 +23,7 @@ app.use(bodyParser.json());
  });
 
  // Home Page
- app.use('/', express.static('./../../ui/angular-ui/dist/angular-ui', {maxAge:60*60*1000, index:'test.html'}));
+ app.use('/', express.static('./../../ui/angular-ui/dist/angular-ui', {maxAge:60*60*1000, index:'index.html'}));
 
  app.post('/login', (req, res)=>{
 
